@@ -4,9 +4,8 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from create_embeddings import query
 
-embeddings_df = pd.read_csv("Embedded Data/quotes.csv")
+embeddings_df = pd.read_csv("Embedded Data/quotes2.csv")
 
-user_query = 'expertise'
 def search_embeddings(user_query):
     user_query_embedding = query(user_query)
     user_query_embedding = np.array(user_query_embedding).reshape(1,-1)

@@ -18,7 +18,7 @@ def process_text():
 
 def your_processing_function(text):
     # Implement your processing logic here
-    return f'Processed: {str(search_embeddings(text))}'
+    return f'{str(search_embeddings(text))}'
 
 if __name__ == '__main__':
     app.run(debug=True)
