@@ -5,6 +5,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 from create_embeddings import query
 
 embeddings_df = pd.read_csv("Embedded Data/quotes2.csv")
+# drop failed embeddings
+embeddings_df = embeddings_df[embeddings_df['383'].notna()]
 
 def search_embeddings(user_query):
     user_query_embedding = query(user_query)
