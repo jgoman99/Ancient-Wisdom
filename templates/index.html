@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Python Web App</title>
+</head>
+<body>
+    <h1>Simple Python Web App</h1>
+    <form method="post">
+        <label for="user_input">Enter Text:</label>
+        <input type="text" name="user_input" required>
+        <button type="submit">Process Text</button>
+    </form>
+    {% if result %}
+    <pre>{{ result }}</pre>
+    {% endif %}
+</body>
+</html>
