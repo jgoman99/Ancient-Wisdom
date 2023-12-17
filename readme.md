@@ -10,6 +10,9 @@ I have two thoughts on this matter.
 1. Semantic Search is usually better than key word. So, worth a shot.
 2. AI experiments in translating languages has revealed that absent outside context (e.g. Rosetta Stone), AI can translate any human language with sufficient data. This implies that humans are born with an innate understanding of how language works supporting the theory of [Language Instinct](https://en.wikipedia.org/wiki/The_Language_Instinct#:~:text=Language%20(speech)%20also%20develops%20in,is%20an%20innate%20human%20ability.). I wonder if AI can similarly decipher human history. 
 
+### Note:
+I made this after taking my last final exam to refresh.
+
 ## TODO
 * Parse and embed classics such as the Mahbarta, Iliad, and more
 * Add bells and whistles to website
